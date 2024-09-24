@@ -82,6 +82,10 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.5rem;
 }
 
+.profile-name > h1 {
+    font-size: 1.2rem;
+}
+
 .profile-name > h4 {
     color: #c4f82a;
     margin-bottom: 1.5rem;
