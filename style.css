@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype'),
+         url(/assets/fonts/static/Inter-Bold.ttf) format('truetype'),
+         url(/assets/fonts/static/Inter-Regular.ttf) format('truetype'),
+         url(assets/fonts/static/Inter-SemiBold.ttf) format('truetype');
+    font-weight: 100 1000;
+    font-stretch:25% 125%;
+    font-display: swap;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+* {
+    margin: 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+  
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #141414;
+}
+ 
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+  
+  input, button, textarea, select {
+    font: inherit;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+  
+#root, #__next {
+    isolation: isolate;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #1f1f1f;
+    width: 26rem;
+    height: 36rem;
+    color: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+    height: 12.125rem;
+    margin-left: 2.5rem;
+    padding-top: 2.5rem;
+    align-items: center;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-name > h4 {
+    color: #c4f82a;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+}
+
+.profile-name > p {
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.social-media a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.social-media button {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: rgba(51,51,51,255);
+    margin-bottom: 1em;
+    border-radius: 8px;
+    border-width: 0;
+    height: 3.4em;
+    cursor: pointer;
+    touch-action: manipulation;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #c4f82a;
+    color: #141414;
+}
